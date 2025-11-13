@@ -20,9 +20,10 @@ public class Collatz {
 					if (verbose){
 						System.out.print(i+ " ");
 					}
+				step++;
 				}while (i !=1);
 				if (verbose){
-					System.out.println("(" + step+ ")");
+				System.out.println("(" + step+ ")");
 				}
 			}
 			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
