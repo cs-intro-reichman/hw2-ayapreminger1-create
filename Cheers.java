@@ -16,7 +16,7 @@ public class Cheers {
             {
                 char bigletter= Character.toUpperCase(name.charAt(i));
                 if 
-                (bigletter=='A'|| bigletter=='E'|| bigletter=='I'|| bigletter=='O'||bigletter=='U')
+                (bigletter=='A'|| bigletter=='E'|| bigletter=='F'|| bigletter=='H'||bigletter=='I'|| bigletter=='L'|| bigletter=='M'|| bigletter=='N'||bigletter=='O'||bigletter=='R'|| bigletter=='S'|| bigletter=='X')
                 {System.out.println("Give me an " +bigletter+ ": " +bigletter+ "!");}
                 else
                 {System.out.println("Give me a " +bigletter+ ": " +bigletter+ "!");}
