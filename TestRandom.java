@@ -2,5 +2,17 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int n= Integer.parseInt(""+args[0]);
+		int big=0;
+		int small=0;
+		for (int i=0; i<n; i=i+1)
+		{
+			if (Math.random()>0.5)
+			{big=big+1;}
+			else{small=small+1;}
+		}
+		System.out.println("< = 0.5"+ small);
+		System.out.println("> 0.5"+big);
+		System.out.println("ratio : "+(double)small/big);
 	}
 }
