@@ -1,3 +1,8 @@
+/*
+Feedback: 
+great use of do while :)
+*/
+
 // Demonstrates the Collatz conjecture.
 public class Collatz {
 	public static void main(String args[]) {
@@ -29,4 +34,5 @@ public class Collatz {
 			System.out.println("Every one of the first " + N + " hailstone sequences reached 1.");
 		}
 	}
+
 
