@@ -1,7 +1,9 @@
-//feedback
-
 /*
-Great work boaz!
+Feedback: 
+Notice camel case: bigletter -> bigLetter
+Instead of having a very big 'if' statement, we could have used 'char.indexOf' method.
+Look at the official solution :)
+
 */
 
 
@@ -28,3 +30,4 @@ public class Cheers {
             }
         }
 }
+
